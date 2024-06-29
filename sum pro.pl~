@@ -1,0 +1,6 @@
+sum(1,1).
+sum(n,Result):-
+    n>1,
+    n1 is n-1,
+    sum(n1,Subresult),
+    Result is n+Subresult.
